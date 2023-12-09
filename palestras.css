@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    clip-path: circle(25% at bottom right);}
+
+    .circle2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #e51e2a;
+        clip-path: circle(10% at bottom left);}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 1.6rem;
+    color: #e51e2a;
+    text-decoration: none;
+    position: relative;
+    max-width: 150px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+header .navegation li a:hover{
+    display: inline-block;
+    color: #948f8f;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px; 
+}
+
+.caras{
+    display: flex;
+    cursor: default;
+}
+
+.caras .img-palestra{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.caras .txt-paletra2{
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 10;
+   
+}
+
+.caras .txt-palestra span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #e51e2a;
+}
+
+.caras .txt-palestra p{
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    clip-path: circle(50% at bottom left);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 1.6rem;
+    color: #e51e2a;
+    text-decoration: none;
+    position: relative;
+    max-width: 150px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+header .navegation li a:hover{
+    display: inline-block;
+    color: #948f8f;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px; 
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.content .text h2{
+    cursor: default;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 70;
+}
+
+.img-ifba{
+    width: 120px;
+    height: 120px;
+}
+
+.img-logo-text{
+    display: flex;
+    margin-right: 10px;
+}
+
+.content .text p{
+    cursor: default;
+    color: #fff;
+}
+
+.content .text .text-list{
+    cursor: default;
+    margin-left: 20px;
+    color: #fff;
+}
